@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>TestChanel-dev.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>TestChanel.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>50444CA2239E1347008FD989</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>50740145239D41560031457B</key>
 		<dict>
 			<key>primary</key>

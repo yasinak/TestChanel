@@ -21,6 +21,33 @@
 		50444C9C239DE348008FD989 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50444C9B239DE348008FD989 /* Int.swift */; };
 		50444C9F239DE579008FD989 /* ForecastWeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50444C9D239DE579008FD989 /* ForecastWeatherTableViewCell.swift */; };
 		50444CA0239DE579008FD989 /* ForecastWeatherTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50444C9E239DE579008FD989 /* ForecastWeatherTableViewCell.xib */; };
+		50444CA5239E1347008FD989 /* Coord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50740182239D62B80031457B /* Coord.swift */; };
+		50444CA6239E1347008FD989 /* Sys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50740180239D62B80031457B /* Sys.swift */; };
+		50444CA7239E1347008FD989 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50444C9B239DE348008FD989 /* Int.swift */; };
+		50444CA8239E1347008FD989 /* Rain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50444C8E239DC7EA008FD989 /* Rain.swift */; };
+		50444CA9239E1347008FD989 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50740183239D62B80031457B /* Main.swift */; };
+		50444CAA239E1347008FD989 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50740186239D62B80031457B /* Weather.swift */; };
+		50444CAB239E1347008FD989 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50740149239D41560031457B /* AppDelegate.swift */; };
+		50444CAC239E1347008FD989 /* ForecastWeathersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50444C94239DCF4C008FD989 /* ForecastWeathersPresenter.swift */; };
+		50444CAD239E1347008FD989 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5074014B239D41560031457B /* SceneDelegate.swift */; };
+		50444CAE239E1347008FD989 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5074017A239D46680031457B /* HomeViewController.swift */; };
+		50444CAF239E1347008FD989 /* ForecastWeatherList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50444C96239DD19B008FD989 /* ForecastWeatherList.swift */; };
+		50444CB0239E1347008FD989 /* WeatherCityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503E4A8A239D82DE00EC9E6C /* WeatherCityTableViewCell.swift */; };
+		50444CB1239E1347008FD989 /* CurrentWeatherList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50740181239D62B80031457B /* CurrentWeatherList.swift */; };
+		50444CB2239E1347008FD989 /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50444C90239DCEB0008FD989 /* URLs.swift */; };
+		50444CB3239E1347008FD989 /* ForecastWeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50444C9D239DE579008FD989 /* ForecastWeatherTableViewCell.swift */; };
+		50444CB4239E1347008FD989 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50740184239D62B80031457B /* List.swift */; };
+		50444CB5239E1347008FD989 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50444C8C239D9B6D008FD989 /* DetailsViewController.swift */; };
+		50444CB6239E1347008FD989 /* CurrentWeathersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50444C92239DCF19008FD989 /* CurrentWeathersPresenter.swift */; };
+		50444CB7239E1347008FD989 /* Clouds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50740185239D62B80031457B /* Clouds.swift */; };
+		50444CB8239E1347008FD989 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50444C98239DD1B8008FD989 /* City.swift */; };
+		50444CB9239E1347008FD989 /* Wind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50740187239D62B80031457B /* Wind.swift */; };
+		50444CBB239E1347008FD989 /* Pods_TestChanel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA4AD4C81061489AA3BE87A /* Pods_TestChanel.framework */; };
+		50444CBD239E1347008FD989 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50740154239D415B0031457B /* LaunchScreen.storyboard */; };
+		50444CBE239E1347008FD989 /* WeatherCityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 503E4A8B239D82DE00EC9E6C /* WeatherCityTableViewCell.xib */; };
+		50444CBF239E1347008FD989 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50740152239D415B0031457B /* Assets.xcassets */; };
+		50444CC0239E1347008FD989 /* ForecastWeatherTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50444C9E239DE579008FD989 /* ForecastWeatherTableViewCell.xib */; };
+		50444CC1239E1347008FD989 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5074014F239D41560031457B /* Main.storyboard */; };
 		5074014A239D41560031457B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50740149239D41560031457B /* AppDelegate.swift */; };
 		5074014C239D41560031457B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5074014B239D41560031457B /* SceneDelegate.swift */; };
 		50740151239D41570031457B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5074014F239D41560031457B /* Main.storyboard */; };
@@ -73,6 +100,8 @@
 		50444C9B239DE348008FD989 /* Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
 		50444C9D239DE579008FD989 /* ForecastWeatherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastWeatherTableViewCell.swift; sourceTree = "<group>"; };
 		50444C9E239DE579008FD989 /* ForecastWeatherTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForecastWeatherTableViewCell.xib; sourceTree = "<group>"; };
+		50444CC6239E1347008FD989 /* TestChanel-dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestChanel-dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50444CC7239E1348008FD989 /* Info-dev.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-dev.plist"; path = "/Users/yas/Workspace/TestChanel/Info-dev.plist"; sourceTree = "<absolute>"; };
 		50740146239D41560031457B /* TestChanel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestChanel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50740149239D41560031457B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5074014B239D41560031457B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +133,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		50444CBA239E1347008FD989 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50444CBB239E1347008FD989 /* Pods_TestChanel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		50740143239D41560031457B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -190,6 +227,7 @@
 				50740152239D415B0031457B /* Assets.xcassets */,
 				50740154239D415B0031457B /* LaunchScreen.storyboard */,
 				50740157239D415B0031457B /* Info.plist */,
+				50444CC7239E1348008FD989 /* Info-dev.plist */,
 			);
 			path = ProjectFiles;
 			sourceTree = "<group>";
@@ -236,6 +274,7 @@
 				50740146239D41560031457B /* TestChanel.app */,
 				5074015C239D415B0031457B /* TestChanelTests.xctest */,
 				50740167239D415B0031457B /* TestChanelUITests.xctest */,
+				50444CC6239E1347008FD989 /* TestChanel-dev.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -303,6 +342,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		50444CA2239E1347008FD989 /* TestChanel-dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50444CC3239E1347008FD989 /* Build configuration list for PBXNativeTarget "TestChanel-dev" */;
+			buildPhases = (
+				50444CA3239E1347008FD989 /* [CP] Check Pods Manifest.lock */,
+				50444CA4239E1347008FD989 /* Sources */,
+				50444CBA239E1347008FD989 /* Frameworks */,
+				50444CBC239E1347008FD989 /* Resources */,
+				50444CC2239E1347008FD989 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TestChanel-dev";
+			productName = TestChanel;
+			productReference = 50444CC6239E1347008FD989 /* TestChanel-dev.app */;
+			productType = "com.apple.product-type.application";
+		};
 		50740145239D41560031457B /* TestChanel */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50740170239D415B0031457B /* Build configuration list for PBXNativeTarget "TestChanel" */;
@@ -400,11 +458,24 @@
 				50740145239D41560031457B /* TestChanel */,
 				5074015B239D415B0031457B /* TestChanelTests */,
 				50740166239D415B0031457B /* TestChanelUITests */,
+				50444CA2239E1347008FD989 /* TestChanel-dev */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		50444CBC239E1347008FD989 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50444CBD239E1347008FD989 /* LaunchScreen.storyboard in Resources */,
+				50444CBE239E1347008FD989 /* WeatherCityTableViewCell.xib in Resources */,
+				50444CBF239E1347008FD989 /* Assets.xcassets in Resources */,
+				50444CC0239E1347008FD989 /* ForecastWeatherTableViewCell.xib in Resources */,
+				50444CC1239E1347008FD989 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		50740144239D41560031457B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -434,6 +505,45 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		50444CA3239E1347008FD989 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestChanel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50444CC2239E1347008FD989 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestChanel/Pods-TestChanel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestChanel/Pods-TestChanel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestChanel/Pods-TestChanel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		88567F732BC55B5FF61C6D3E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -537,6 +647,34 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		50444CA4239E1347008FD989 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50444CA5239E1347008FD989 /* Coord.swift in Sources */,
+				50444CA6239E1347008FD989 /* Sys.swift in Sources */,
+				50444CA7239E1347008FD989 /* Int.swift in Sources */,
+				50444CA8239E1347008FD989 /* Rain.swift in Sources */,
+				50444CA9239E1347008FD989 /* Main.swift in Sources */,
+				50444CAA239E1347008FD989 /* Weather.swift in Sources */,
+				50444CAB239E1347008FD989 /* AppDelegate.swift in Sources */,
+				50444CAC239E1347008FD989 /* ForecastWeathersPresenter.swift in Sources */,
+				50444CAD239E1347008FD989 /* SceneDelegate.swift in Sources */,
+				50444CAE239E1347008FD989 /* HomeViewController.swift in Sources */,
+				50444CAF239E1347008FD989 /* ForecastWeatherList.swift in Sources */,
+				50444CB0239E1347008FD989 /* WeatherCityTableViewCell.swift in Sources */,
+				50444CB1239E1347008FD989 /* CurrentWeatherList.swift in Sources */,
+				50444CB2239E1347008FD989 /* URLs.swift in Sources */,
+				50444CB3239E1347008FD989 /* ForecastWeatherTableViewCell.swift in Sources */,
+				50444CB4239E1347008FD989 /* List.swift in Sources */,
+				50444CB5239E1347008FD989 /* DetailsViewController.swift in Sources */,
+				50444CB6239E1347008FD989 /* CurrentWeathersPresenter.swift in Sources */,
+				50444CB7239E1347008FD989 /* Clouds.swift in Sources */,
+				50444CB8239E1347008FD989 /* City.swift in Sources */,
+				50444CB9239E1347008FD989 /* Wind.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		50740142239D41560031457B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -616,6 +754,52 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		50444CC4239E1347008FD989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A9AFBB466BA6416F91879EF /* Pods-TestChanel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Z3QF7P489;
+				INFOPLIST_FILE = "TestChanel/ProjectFiles/Info-dev.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -DDEVELOPMENT";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yas.TestChanel-dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50444CC5239E1347008FD989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D260BE55B2D357159D5254D6 /* Pods-TestChanel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Z3QF7P489;
+				INFOPLIST_FILE = "TestChanel/ProjectFiles/Info-dev.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -DDEVELOPMENT";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yas.TestChanel-dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		5074016E239D415B0031457B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -738,6 +922,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5Z3QF7P489;
 				INFOPLIST_FILE = TestChanel/ProjectFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -757,6 +942,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5Z3QF7P489;
 				INFOPLIST_FILE = TestChanel/ProjectFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -859,6 +1045,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		50444CC3239E1347008FD989 /* Build configuration list for PBXNativeTarget "TestChanel-dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50444CC4239E1347008FD989 /* Debug */,
+				50444CC5239E1347008FD989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		50740141239D41560031457B /* Build configuration list for PBXProject "TestChanel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

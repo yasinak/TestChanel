@@ -20,6 +20,13 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Weather in France"
+        
+        #if DEVELOPMENT
+        print("DEVELOPMENT")
+        #else
+        print("PRODUCTION")
+        #endif
+        
         citiesTableView.register(UINib(nibName: "WeatherCityTableViewCell", bundle: nil), forCellReuseIdentifier: "WeatherCityTableViewCell")
         citiesTableView.tableFooterView = UIView()
         weatherPresenter.fetchCurrentWeatherData { [weak self] in

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "50740145239D41560031457B"
-               BuildableName = "TestChanel.app"
-               BlueprintName = "TestChanel"
+               BlueprintIdentifier = "50444CA2239E1347008FD989"
+               BuildableName = "TestChanel-dev.app"
+               BlueprintName = "TestChanel-dev"
                ReferencedContainer = "container:TestChanel.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,26 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5074015B239D415B0031457B"
-               BuildableName = "TestChanelTests.xctest"
-               BlueprintName = "TestChanelTests"
-               ReferencedContainer = "container:TestChanel.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "50740166239D415B0031457B"
-               BuildableName = "TestChanelUITests.xctest"
-               BlueprintName = "TestChanelUITests"
-               ReferencedContainer = "container:TestChanel.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -64,19 +44,12 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "50740145239D41560031457B"
-            BuildableName = "TestChanel.app"
-            BlueprintName = "TestChanel"
+            BlueprintIdentifier = "50444CA2239E1347008FD989"
+            BuildableName = "TestChanel-dev.app"
+            BlueprintName = "TestChanel-dev"
             ReferencedContainer = "container:TestChanel.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <EnvironmentVariables>
-         <EnvironmentVariable
-            key = "OS_ACTIVITY_MODE"
-            value = "disable"
-            isEnabled = "YES">
-         </EnvironmentVariable>
-      </EnvironmentVariables>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -88,9 +61,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "50740145239D41560031457B"
-            BuildableName = "TestChanel.app"
-            BlueprintName = "TestChanel"
+            BlueprintIdentifier = "50444CA2239E1347008FD989"
+            BuildableName = "TestChanel-dev.app"
+            BlueprintName = "TestChanel-dev"
             ReferencedContainer = "container:TestChanel.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
