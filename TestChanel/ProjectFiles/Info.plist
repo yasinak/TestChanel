@@ -60,5 +60,21 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>LAUNCH_APPLICATION_MODE</key>
+	<string>${LAUNCH_APPLICATION_MODE}</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>testchanel</string>
+			</array>
+		</dict>
+	</array>
 </dict>
 </plist>

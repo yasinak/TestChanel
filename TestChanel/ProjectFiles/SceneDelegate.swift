@@ -19,6 +19,19 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
     }
+    
+    func scene(_ scene: UIScene, openURLContexts URLContexts: Set<UIOpenURLContext>) {
+        print(URLContexts)
+        if let url = URLContexts.first?.url {
+            let urlComponents = URLComponents(url: url, resolvingAgainstBaseURL: false)
+            if urlComponents?.host == "release" {
+                print("release")
+            } else if urlComponents?.host == "debug" {
+                print("debug")
+                
+            }
+        }
+    }
 
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.
