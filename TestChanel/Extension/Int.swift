@@ -13,7 +13,15 @@ extension Int {
     func getDateFromTimeStamp() -> String {
         let date = NSDate(timeIntervalSince1970: Double(self))
         let dayTimePeriodFormatter = DateFormatter()
-        dayTimePeriodFormatter.dateFormat = "HH:mm:ss dd/MM/yyyy"
+        dayTimePeriodFormatter.dateFormat = "dd/MM/yyyy"
+        let dateString = dayTimePeriodFormatter.string(from: date as Date)
+        return dateString
+    }
+    
+    func getTimeFromTimeStamp() -> String {
+        let date = NSDate(timeIntervalSince1970: Double(self))
+        let dayTimePeriodFormatter = DateFormatter()
+        dayTimePeriodFormatter.dateFormat = "HH:mm:ss"
         let dateString = dayTimePeriodFormatter.string(from: date as Date)
         return dateString
     }

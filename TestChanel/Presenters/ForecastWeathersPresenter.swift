@@ -11,14 +11,14 @@ import Alamofire
 
 final class ForecastWeathersPresenter: NSObject {
 
-    var weatherCityList: [List]?
+    private var weatherCityList: [List]?
 
     //MARK: - Methods to fetch the forecast weather for a city from the webservice
     func fetchForecastWeatherDataForCity(id: String, completion: @escaping () -> Void) {
         Alamofire.request(URLs.fiveDaysWeatherForecastUrl(id: id)).responseData { [weak self] response in
             switch response.result {
             case .success:
-                if let data = response.data{
+                if let data = response.data {
                     do {
                         let weatherList = try JSONDecoder().decode(ForecastWeatherList.self, from: data)
                         self?.weatherCityList = weatherList.list

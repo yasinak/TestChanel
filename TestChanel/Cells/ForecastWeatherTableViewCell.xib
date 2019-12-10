@@ -47,15 +47,23 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DlR-gd-N1Z">
+                        <rect key="frame" x="267" y="10" width="38" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
                 <constraints>
                     <constraint firstItem="SYh-K7-zFs" firstAttribute="leading" secondItem="QvR-lr-H8O" secondAttribute="leading" id="1di-dP-JVA"/>
                     <constraint firstItem="Q0y-4K-8Ql" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="7HK-jE-Wke"/>
+                    <constraint firstItem="DlR-gd-N1Z" firstAttribute="firstBaseline" secondItem="Q0y-4K-8Ql" secondAttribute="firstBaseline" id="7Xu-62-hs7"/>
                     <constraint firstItem="BnP-Mn-fDt" firstAttribute="top" secondItem="Q0y-4K-8Ql" secondAttribute="bottom" constant="10" id="HLc-Hu-mqU"/>
                     <constraint firstItem="BnP-Mn-fDt" firstAttribute="width" secondItem="BnP-Mn-fDt" secondAttribute="height" multiplier="1:1" id="IM9-YE-yZd"/>
                     <constraint firstItem="BnP-Mn-fDt" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="KPg-dW-mZ2"/>
                     <constraint firstItem="WsK-La-Jry" firstAttribute="top" secondItem="SYh-K7-zFs" secondAttribute="bottom" constant="3" id="PPI-GD-nNQ"/>
                     <constraint firstItem="WsK-La-Jry" firstAttribute="leading" secondItem="QvR-lr-H8O" secondAttribute="leading" id="S9R-Wc-zLk"/>
+                    <constraint firstAttribute="trailing" secondItem="DlR-gd-N1Z" secondAttribute="trailing" constant="15" id="SPq-v3-fo5"/>
                     <constraint firstItem="Q0y-4K-8Ql" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="U8w-dS-G38"/>
                     <constraint firstItem="SYh-K7-zFs" firstAttribute="top" secondItem="QvR-lr-H8O" secondAttribute="bottom" constant="3" id="XD7-Z9-lZv"/>
                     <constraint firstAttribute="bottom" secondItem="BnP-Mn-fDt" secondAttribute="bottom" constant="15" id="auu-sX-iX9"/>
@@ -72,6 +80,7 @@
                 <outlet property="descriptionLabel" destination="QvR-lr-H8O" id="Xhe-fE-xj9"/>
                 <outlet property="humidityLabel" destination="WsK-La-Jry" id="bfS-4p-SYK"/>
                 <outlet property="temperatureLabel" destination="SYh-K7-zFs" id="zYi-ws-8D0"/>
+                <outlet property="timeLabel" destination="DlR-gd-N1Z" id="Goy-Ot-XQe"/>
                 <outlet property="weatherImageView" destination="BnP-Mn-fDt" id="8ln-Si-2Wx"/>
             </connections>
             <point key="canvasLocation" x="137.68115942028987" y="163.72767857142856"/>

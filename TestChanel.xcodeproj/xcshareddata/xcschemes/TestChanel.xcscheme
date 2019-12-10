@@ -26,7 +26,31 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES">
+      <CodeCoverageTargets>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "50740145239D41560031457B"
+            BuildableName = "TestChanel.app"
+            BlueprintName = "TestChanel"
+            ReferencedContainer = "container:TestChanel.xcodeproj">
+         </BuildableReference>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "5074015B239D415B0031457B"
+            BuildableName = "TestChanelTests.xctest"
+            BlueprintName = "TestChanelTests"
+            ReferencedContainer = "container:TestChanel.xcodeproj">
+         </BuildableReference>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "50740166239D415B0031457B"
+            BuildableName = "TestChanelUITests.xctest"
+            BlueprintName = "TestChanelUITests"
+            ReferencedContainer = "container:TestChanel.xcodeproj">
+         </BuildableReference>
+      </CodeCoverageTargets>
       <Testables>
          <TestableReference
             skipped = "NO">

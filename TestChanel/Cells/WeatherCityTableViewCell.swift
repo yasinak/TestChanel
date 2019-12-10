@@ -15,11 +15,15 @@ class WeatherCityTableViewCell: UITableViewCell {
     @IBOutlet weak var weatherDescriptionLabel: UILabel!
     @IBOutlet weak var temperatureLabel: UILabel!
     
+    override func awakeFromNib() {
+        isAccessibilityElement = true
+    }
     
     func setupCell(weatherCityData : List) {
+        isAccessibilityElement = true
         cityNameLabel.text = weatherCityData.name
         weatherDescriptionLabel.text = weatherCityData.weather?[0].main ?? ""
-        temperatureLabel.text = "\(weatherCityData.main?.temp ?? 0)"
+        temperatureLabel.text = "Temperature: \(weatherCityData.main?.temp ?? 0)°"
         if let iconCode =  weatherCityData.weather?[0].icon, let iconURL = CurrentWeathersPresenter().getIconURL(code: iconCode) {
             weatherImageView.af_setImage(withURL: iconURL)
         }

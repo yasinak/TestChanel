@@ -11,14 +11,15 @@ import Alamofire
 
 final class CurrentWeathersPresenter {
     
-    var weatherCityList: [List]?
+    //  all the weather data stay in this class and no
+    private var weatherCityList: [List]?
     
     //MARK: - Methods to fetch the current weather data for few cities from the webservice
     func fetchCurrentWeatherData(completion: @escaping () -> Void) {
         Alamofire.request(URLs.currentWeatherUrl()).responseData { [weak self] response in
             switch response.result {
             case .success:
-                if let data = response.data{
+                if let data = response.data {
                     do {
                         let weatherList = try JSONDecoder().decode(CurrentWeatherList.self, from: data)
                         self?.weatherCityList = weatherList.list
