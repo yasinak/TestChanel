@@ -18,6 +18,9 @@
                 <subviews>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6g5-q6-1SP">
                         <rect key="frame" x="15" y="15" width="69" height="69"/>
+                        <accessibility key="accessibilityConfiguration">
+                            <bool key="isElement" value="YES"/>
+                        </accessibility>
                         <constraints>
                             <constraint firstAttribute="width" secondItem="6g5-q6-1SP" secondAttribute="height" multiplier="1:1" id="JxZ-GO-arQ"/>
                             <constraint firstAttribute="height" priority="750" constant="69" id="ZCq-CB-WIJ"/>
@@ -54,6 +57,9 @@
                     <constraint firstAttribute="bottom" secondItem="6g5-q6-1SP" secondAttribute="bottom" constant="15" id="k7p-i6-sLr"/>
                 </constraints>
             </tableViewCellContentView>
+            <accessibility key="accessibilityConfiguration">
+                <bool key="isElement" value="YES"/>
+            </accessibility>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="cityNameLabel" destination="mtm-ay-JLx" id="EfC-9B-p90"/>

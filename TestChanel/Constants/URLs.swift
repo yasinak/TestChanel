@@ -10,8 +10,8 @@ import Foundation
 
 struct URLs {
     private static let HOST = "http://api.openweathermap.org"
-    static let iconUrlPart1 = "http://openweathermap.org/img/w/"
-    static let iconUrlPart2 = ".png"
+    static let iconUrl = "http://openweathermap.org/img/w/"
+    static let iconUrlExtension = ".png"
     private static let CURRENT_WEATHER_SERVICE = "/data/2.5/group?"
     private static let FIVE_DAYS_WEATHER_FORECAST_SERVICE = "/data/2.5/forecast?"
     private static let CITIES_KEY = "id="

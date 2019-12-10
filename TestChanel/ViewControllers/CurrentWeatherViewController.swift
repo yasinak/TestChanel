@@ -1,5 +1,5 @@
 //
-//  HomeViewController.swift
+//  CurrentWeatherViewController.swift
 //  TestChanel
 //
 //  Created by Yasin Akinci on 08/12/2019.
@@ -9,7 +9,7 @@
 import UIKit
 import AlamofireImage
 
-class HomeViewController: UIViewController {
+class CurrentWeatherViewController: UIViewController {
 
     @IBOutlet weak var citiesTableView: UITableView!
     
@@ -21,12 +21,6 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         self.title = "Weather in France"
         
-        #if DEVELOPMENT
-        print("DEVELOPMENT")
-        #else
-        print("PRODUCTION")
-        #endif
-        
         citiesTableView.register(UINib(nibName: "WeatherCityTableViewCell", bundle: nil), forCellReuseIdentifier: "WeatherCityTableViewCell")
         citiesTableView.tableFooterView = UIView()
         weatherPresenter.fetchCurrentWeatherData { [weak self] in
@@ -37,7 +31,7 @@ class HomeViewController: UIViewController {
     
     // MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let viewController = segue.destination as? DetailsViewController, let indexPath = sender as? IndexPath {
+        if let viewController = segue.destination as? ForcastWeatherViewController, let indexPath = sender as? IndexPath {
             viewController.list = weatherPresenter.getWeatherCityFor(index: indexPath.row)
         }
     }
@@ -45,7 +39,7 @@ class HomeViewController: UIViewController {
 }
 
 // MARK: - UITableViewDataSource
-extension HomeViewController: UITableViewDataSource {
+extension CurrentWeatherViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return weatherPresenter.getCityCount()
     }
@@ -65,7 +59,7 @@ extension HomeViewController: UITableViewDataSource {
 }
 
 // MARK: - UITableViewDelegate
-extension HomeViewController: UITableViewDelegate {
+extension CurrentWeatherViewController: UITableViewDelegate {
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)

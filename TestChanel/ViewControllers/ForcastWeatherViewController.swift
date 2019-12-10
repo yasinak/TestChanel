@@ -1,5 +1,5 @@
 //
-//  DetailsViewController.swift
+//  ForcastWeatherViewController.swift
 //  TestChanel
 //
 //  Created by Yasin Akinci on 08/12/2019.
@@ -8,11 +8,12 @@
 
 import UIKit
 
-class DetailsViewController: UIViewController {
+class ForcastWeatherViewController: UIViewController {
 
     @IBOutlet weak var weatherTableView: UITableView!
     
     let forecastWeatherPresenter = ForecastWeathersPresenter()
+    //  list value get in the previous viewController
     var list: List?
     
     override func viewDidLoad() {
@@ -32,7 +33,7 @@ class DetailsViewController: UIViewController {
 }
 
 // MARK: - UITableViewDataSource
-extension DetailsViewController: UITableViewDataSource {
+extension ForcastWeatherViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return forecastWeatherPresenter.getForecastWeatherCount()
     }
@@ -51,7 +52,7 @@ extension DetailsViewController: UITableViewDataSource {
 }
 
 // MARK: - UITableViewDelegate
-extension DetailsViewController: UITableViewDelegate {
+extension ForcastWeatherViewController: UITableViewDelegate {
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)

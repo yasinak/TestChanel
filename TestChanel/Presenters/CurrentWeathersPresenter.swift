@@ -30,7 +30,6 @@ final class CurrentWeathersPresenter {
             case .failure:
                 print("REQUEST FAILED")
             }
-
         }
     }
     
@@ -45,7 +44,7 @@ final class CurrentWeathersPresenter {
     
     //MARK: -Methods to get the URL of a icon
     func getIconURL(code:String)-> URL? {
-        return URL(string: URLs.iconUrlPart1+code+URLs.iconUrlPart2)
+        return URL(string: URLs.iconUrl+code+URLs.iconUrlExtension)
     }
     
 }
