@@ -20,3 +20,17 @@ The ViewControllers ask to the Presenters all informations needed.
 The Presenters used the Alamofire API to get the data for the Openweathermap API and delivers it to the ViewControllers.
 
 I choose this architecture because it is sufficient for the need of this little project...
+
+## Test
+I used XCTest for the test of the project, and I have 83,2% of code coverage.
+
+## Scheme
+I have 2 schemes: 
+- TestChanel for the PRODUCTION version
+The app name is TestChanel.
+The Bundle identifier is com.yas.TestChanel
+
+- TestChanel-dev for the DEVELOPMENT version
+The app name is TestChanel-dev.
+The DEVELOPMENT version has the DEVELOPMENT flag.
+The Bundle identifier is com.yas.TestChanel-dev
